@@ -5,6 +5,7 @@
 library("lubridate")
 library("SPEI")
 library("lmom")
+library("lmomco")
 library("zoo")
 
 # source both functions needed later
