@@ -3,7 +3,7 @@
 
 HargreavesPET_daily <- function(date, tavg, tdif, lat){
   
-  doy <- day(date)
+  doy <- yday(date)
   phi = pi/180 * lat
   delta = 0.409*sin(2*pi/366*doy-1.39)
   dr = 1 + 0.033*cos(2*pi/365*doy)
